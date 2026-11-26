@@ -11,7 +11,7 @@ This record contains the simulation code, input data and complete results for th
 | Name | ORCID | Affiliation | Contact |
 |---|---|---|---|
 | Dedi Irawan (corresponding author) | 0009-0007-4973-926X | Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia | dedimti@ummetro.ac.id |
-| Sudarmaji | 0009-0005-5549-4886 | Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia | |
+| Sudarmaji | 0000-0001-5549-4886 | Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia | |
 | Imam Samsudin | 0009-0006-2482-4209 | Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia | |
 
 ## What the model does
