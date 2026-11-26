@@ -1,0 +1,36 @@
+{
+  "title": "Carbon-aware scheduling on coal-dominated island grids: code, data and results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-11-26",
+  "language": "eng",
+  "description": "<p>Simulation code, input data and complete results for the article <em>Model-based marginal emission signals for carbon-aware scheduling on coal-dominated island grids: a computational regime map along Indonesia's transition pathway</em> (submitted to the Journal of Computational Science).</p><p>An hourly merit-order dispatch model of Indonesian island grids (Jawa-Bali, Sumatera, South Sulawesi), calibrated to the official 2024 energy mix, yields average carbon intensity and marginal emission signals. Carbon-aware schedulers for delay-tolerant data-centre jobs are evaluated by consequential accounting (re-dispatch). Included: the Jupyter notebook that produced every result, the digitized 2024 Jawa-Bali load shape (PLN UIP2B), 32 result tables, 9 figures (PDF and PNG), raw Sobol runs and SHA-256 checksums. See README.md.</p><p>Licences: code MIT; data and results CC BY 4.0. Electricity Maps traces (ODbL) are not redistributed; they are downloaded at run time.</p>",
+  "creators": [
+    {
+      "name": "Irawan, Dedi",
+      "affiliation": "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia",
+      "orcid": "0009-0007-4973-926X"
+    },
+    {
+      "name": "Sudarmaji",
+      "affiliation": "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia",
+      "orcid": "0009-0005-5549-4886"
+    },
+    {
+      "name": "Samsudin, Imam",
+      "affiliation": "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia",
+      "orcid": "0009-0006-2482-4209"
+    }
+  ],
+  "keywords": [
+    "carbon-aware computing",
+    "marginal emission factor",
+    "merit-order dispatch",
+    "global sensitivity analysis",
+    "data center scheduling",
+    "Indonesia"
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "notes": "Code: MIT. Data (data/) and results (results/): CC BY 4.0, see LICENSES/. Code cells are identical to run v10_p2b (Google Colab, 25 Nov 2026)."
+}
