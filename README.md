@@ -1,4 +1,4 @@
-# Carbon-aware scheduling on coal-dominated island grids — code, data and results (v1.0.0)
+# Carbon-aware scheduling on coal-dominated island grids - code, data and results (v1.0.0)
 
 This record contains the simulation code, input data and complete results for the article:
 
