@@ -1,0 +1,4 @@
+grid,model_system_avg,model_fossil_only,model_mean_hourly_MEF,official_grid,om_2019,bm_2019,cm_2019,fossil_vs_OM_pct
+Jawa_Bali,0.793,0.856,0.834,Jamali (no. 38),0.8,0.94,0.87,7.0
+Sumatera,0.573,0.783,0.504,Sumatera (no. 125),0.77,1.12,0.94,1.7
+Sulawesi,0.571,0.848,0.571,Sulselbar (no. 123),0.73,1.17,0.95,16.2

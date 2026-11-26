@@ -1,0 +1,9 @@
+# Versions of the reduced local verification run (the Colab run did not record versions).
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+SALib>=1.4
+gymnasium>=0.29
+stable-baselines3>=2.0
+# tested: numpy 2.5.3, pandas 3.0.5, matplotlib 3.11.2, SALib 1.6.0,
+#         gymnasium 1.4.0, stable-baselines3 2.9.2, torch 2.15.0, Python 3.13

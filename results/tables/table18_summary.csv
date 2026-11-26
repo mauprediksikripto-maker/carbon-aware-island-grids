@@ -1,0 +1,5 @@
+grid,variant,gas_first,cells,avgCI_neg_cells,MEF_min,MEF_neg_cells
+Jawa_Bali,analytic_bf_0.70,0.0,63,34,7.327,0
+Jawa_Bali,analytic_bf_0.70,1.0,63,22,0.0,0
+Sumatera,calendar,0.0,63,49,6.368,0
+Sumatera,calendar,1.0,63,35,5.689,0

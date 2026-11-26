@@ -1,0 +1,6 @@
+ef_set,ef_coal,ef_ccgt,ef_peaker,coal_to_ccgt,Jawa_Bali_fossil_EF,Jawa_Bali_fossil_vs_OM2019_pct,Jawa_Bali_avgCI_2pct,Jawa_Bali_MEF_2pct,Sumatera_fossil_EF,Sumatera_fossil_vs_OM2019_pct,Sumatera_avgCI_2pct,Sumatera_MEF_2pct,Sulawesi_fossil_EF,Sulawesi_fossil_vs_OM2019_pct,Sulawesi_avgCI_2pct,Sulawesi_MEF_2pct,Sumatera_coalfirst_avgCI_neg_cells,Sumatera_coalfirst_MEF_min,Sumatera_gasfirst_avgCI_neg_cells,Sumatera_gasfirst_MEF_min,Jawa_Bali_coalfirst_avgCI_neg_cells,Jawa_Bali_coalfirst_MEF_min,Jawa_Bali_gasfirst_avgCI_neg_cells,Jawa_Bali_gasfirst_MEF_min
+base_v8,0.95,0.445,0.7,2.13,0.8557,7.0,0.635,11.479,0.7829,1.7,-2.971,6.497,0.8479,16.2,-0.668,5.796,49/63,6.269,34/63,5.043,21/63,8.644,17/63,0.047
+low,0.913,0.433,0.506,2.11,0.8234,2.9,0.618,11.322,0.7497,-2.6,-1.488,1.82,0.8034,10.1,-0.809,1.909,63/63,1.763,40/63,5.334,21/63,8.539,17/63,0.046
+PLN_own_avg,1.144,0.445,0.779,2.57,1.0135,26.7,0.803,13.617,0.9122,18.5,-6.073,8.215,1.0013,37.2,-2.156,7.103,63/63,7.997,37/63,6.107,21/63,10.094,18/63,0.053
+high,1.238,0.511,0.779,2.42,1.1023,37.8,0.733,12.974,0.9948,29.2,-4.549,5.998,1.0837,48.5,-1.888,5.435,63/63,5.794,38/63,7.088,21/63,9.663,18/63,0.051
+v7_literature,0.95,0.4,0.7,2.37,0.8473,5.9,0.717,12.759,0.7686,-0.2,-4.726,8.21,0.8405,15.1,-1.23,7.073,49/63,7.991,35/63,5.317,21/63,9.501,18/63,0.05

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article and this record."
+title: "Carbon-aware scheduling on coal-dominated island grids: code, data and results"
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT
+type: software
+authors:
+  - family-names: Irawan
+    given-names: Dedi
+    orcid: "https://orcid.org/0009-0007-4973-926X"
+    email: dedimti@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+  - family-names: Sudarmaji
+    orcid: "https://orcid.org/0009-0005-5549-4886"
+    email: sudarmaji@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+  - family-names: Samsudin
+    given-names: Imam
+    orcid: "https://orcid.org/0009-0006-2482-4209"
+    email: imamsam@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+keywords:
+  - carbon-aware computing
+  - marginal emission factor
+  - merit-order dispatch
+  - global sensitivity analysis
+  - data center scheduling
+  - Indonesia
+abstract: >-
+  Merit-order dispatch model of Indonesian island grids (Jawa-Bali, Sumatera, South Sulawesi) calibrated to the
+  official 2024 energy mix, with average carbon intensity and model-based marginal emission signals, consequential
+  evaluation of carbon-aware schedulers for delay-tolerant data-centre jobs, Sobol sensitivity analysis, a regime
+  map along the solar transition, and all result tables and figures of run v10_p2b.

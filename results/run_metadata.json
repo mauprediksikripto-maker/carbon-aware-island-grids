@@ -1,0 +1,239 @@
+{
+ "seed": 42,
+ "data_verified": true,
+ "hours": 8760,
+ "n_jobs": 20000,
+ "ppo": true,
+ "ppo_timesteps": 60000,
+ "grids": {
+  "EU_like": {
+   "peak": 60000,
+   "base_frac": 0.7,
+   "coal": 12000,
+   "coal_min": 0.35,
+   "ccgt": 25000,
+   "peaker": 22000,
+   "solar": 55000,
+   "wind": 60000,
+   "hydro_cf_mw": 4000,
+   "geo": 0,
+   "cloud": 0.35,
+   "wind_cf": 0.25,
+   "tz_shift": 0
+  },
+  "Jawa_Bali": {
+   "peak": 31654,
+   "base_frac": 0.72,
+   "p2b": true,
+   "coal": 22250,
+   "coal_min": 0.4,
+   "ccgt": 12000,
+   "ccgt_must": 4250,
+   "peaker": 12000,
+   "solar": 900,
+   "wind": 0,
+   "hydro_cf_mw": 921,
+   "geo": 836,
+   "cloud": 0.45,
+   "wind_cf": 0.0,
+   "tz_shift": 0
+  },
+  "Sumatera": {
+   "peak": 7001,
+   "base_frac": 0.7,
+   "coal": 2675,
+   "coal_min": 0.3,
+   "ccgt": 2000,
+   "peaker": 2000,
+   "solar": 40,
+   "wind": 0,
+   "hydro_cf_mw": 874,
+   "geo": 681,
+   "cloud": 0.45,
+   "wind_cf": 0.0,
+   "tz_shift": 0
+  },
+  "Sulawesi": {
+   "peak": 1650,
+   "base_frac": 0.75,
+   "coal": 700,
+   "coal_min": 0.3,
+   "ccgt": 200,
+   "peaker": 400,
+   "solar": 10,
+   "wind": 130,
+   "hydro_cf_mw": 402,
+   "geo": 0,
+   "cloud": 0.45,
+   "wind_cf": 0.3,
+   "tz_shift": -1
+  }
+ },
+ "real_csv": {
+  "DE_real": "https://raw.githubusercontent.com/HewlettPackard/sustain-cluster/3f6ea95cb835b89ba50b0ef76d66d14b8037643e/data/carbon_intensity/DE-LU/2024/DE-LU_2024_hourly.csv",
+  "GB_real": "https://raw.githubusercontent.com/HewlettPackard/sustain-cluster/3f6ea95cb835b89ba50b0ef76d66d14b8037643e/data/carbon_intensity/GB/2024/GB_2024_hourly.csv"
+ },
+ "ef": {
+  "coal": 0.95,
+  "ccgt": 0.445,
+  "peaker": 0.7,
+  "solar": 0.0,
+  "wind": 0.0,
+  "hydro": 0.0,
+  "geo": 0.0
+ },
+ "ef_sets": {
+  "base_v8": {
+   "coal": 0.95,
+   "ccgt": 0.445,
+   "peaker": 0.7
+  },
+  "low": {
+   "coal": 0.913,
+   "ccgt": 0.433,
+   "peaker": 0.506
+  },
+  "PLN_own_avg": {
+   "coal": 1.144,
+   "ccgt": 0.445,
+   "peaker": 0.779
+  },
+  "high": {
+   "coal": 1.238,
+   "ccgt": 0.511,
+   "peaker": 0.779
+  },
+  "v7_literature": {
+   "coal": 0.95,
+   "ccgt": 0.4,
+   "peaker": 0.7
+  }
+ },
+ "stages": {
+  "traces": {
+   "finished": "2026-11-25 06:20:12"
+  },
+  "heuristic": {
+   "finished": "2026-11-25 06:20:18"
+  },
+  "sweep": {
+   "finished": "2026-11-25 06:34:33"
+  },
+  "sobol_Sumatera": {
+   "n_rows": 4096,
+   "finished": "2026-11-25 06:40:12"
+  },
+  "sobol_Jawa_Bali": {
+   "n_rows": 4096,
+   "finished": "2026-11-25 06:46:21"
+  },
+  "consequential": {
+   "finished": "2026-11-25 06:46:25"
+  },
+  "misspec": {
+   "finished": "2026-11-25 06:48:47"
+  },
+  "sobolC_Sumatera": {
+   "n_rows": 4096,
+   "finished": "2026-11-25 07:00:37"
+  },
+  "sobolC_Jawa_Bali": {
+   "n_rows": 4096,
+   "finished": "2026-11-25 07:13:57"
+  },
+  "ppo": {
+   "finished": "2026-11-25 06:34:28"
+  },
+  "consequential_reserve": {
+   "finished": "2026-11-25 07:13:59"
+  },
+  "ablation": {
+   "finished": "2026-11-25 07:15:12"
+  },
+  "regime_map": {
+   "finished": "2026-11-25 07:15:44"
+  },
+  "calib_age": {
+   "finished": "2026-11-25 07:15:55"
+  },
+  "sobol_convergence": {
+   "n_rows": 8192,
+   "finished": "2026-11-25 07:40:58"
+  },
+  "ef_sensitivity": {
+   "finished": "2026-11-25 07:43:48"
+  },
+  "rep_seeds": {
+   "finished": "2026-11-25 07:50:44"
+  },
+  "load_shape": {
+   "finished": "2026-11-25 07:52:37"
+  },
+  "mechanism": {
+   "finished": "2026-11-25 07:52:38"
+  },
+  "slack_sens": {
+   "finished": "2026-11-25 07:52:42"
+  }
+ },
+ "zipped": "2026-11-25 07:52:42",
+ "sha256": {
+  "fig1_ci_week.pdf": "8a4a9cf2e55e5e0501a5792b8806b7e6cd75618c25945667a3b239c683e02c3b",
+  "fig1_ci_week.png": "d07c1a9ec737a138c9f663d524526450a357efb3be80c4f068c51346c21e6f93",
+  "fig2_solar_sweep.pdf": "698be6738119d3d2dcfd6698bd1d4ca871667e8229c08a727976194facd1799c",
+  "fig2_solar_sweep.png": "71f50c7aaac9952efe0a183fd6478d129f4f5d355d4cf6fede6fad63ad8466ac",
+  "fig3_sobol_indices.pdf": "4acfc3fb97fa5897e7c7c90e9ac7133e258bfeffa2ebd3ed3bb93170e94f1bc0",
+  "fig3_sobol_indices.png": "8cec8d01f39e1b3cf608866cd4bfa7446a18e765953d11040f66e08906e7c786",
+  "fig4_sobol_consequential.pdf": "cbcf7a1b92f0b15eff4294a5e185bbdf5b6dbd64f405e01e7c6f78a9c64579b5",
+  "fig4_sobol_consequential.png": "d0a1c986b4687586e9ce1b1e9ede19fc91e15ddfdb2301867f6f88f7d3f01596",
+  "fig5_regime_map.pdf": "9dd68074220441befd8378f9f05cb335926a1544f729d3344a7434ef0dd80118",
+  "fig5_regime_map.png": "01ca3713c77a49eee32685b6190ed68aa8c6630777d7e03e50bff96491ff16d3",
+  "fig6_calibration_age.pdf": "ec717f4c3eb2390189b613cf31de3cf4bf2181520346f31f4399207c40d90d91",
+  "fig6_calibration_age.png": "c2e8e7d81479dfd43ae3a68c379dde470f3c235e3045f1ace9973f6cd01cff9e",
+  "fig7_mechanism.pdf": "5c292f2032bdd218ec0466b1e95880c527b43600bb44fa20c46ba8477cd68aa1",
+  "fig7_mechanism.png": "60aaa5d3e5d3aa17c6ba54154b55ef8a9ddaebe6d5dc15e9e12f072745ab4fdb",
+  "fig8_valley_replicates.pdf": "8cdfade41848104226d9e2cd18db1c19dd63cc2885716694b73d70bbf9bca447",
+  "fig8_valley_replicates.png": "1366efb02840b7720507e6125d39d40b61dd410c249e95b8bd67c7751b58b6f0",
+  "fig9_daily_swing.pdf": "1a94880fe507d80699df0b0bb8f8ead1a57adc69cc65ed0123ec6481ad46c4bf",
+  "fig9_daily_swing.png": "221d55b253f326e547ea54ae79f128cf193e43b6ab4e7edc840e26e8e86c75b2",
+  "grid_summary.csv": "0939469477686b6449e6655afe60d8899b44d0f2f35add8b04d51af1884a4e12",
+  "sobolC_ext_runs_Jawa_Bali.csv": "3847ff9a032ba32871f65160ad0193ac2e02f3feeccf46b3dd667ddd2021fca7",
+  "sobolC_ext_runs_Sumatera.csv": "224d217947752b4f58ac8234d0efa8df529a6b213feb8d2937577ddb13126bf3",
+  "sobolC_runs_Jawa_Bali.csv": "08e9dd374a1576dc5c6f99ac3f0d042d374f4d685bb2986519744635585ca65c",
+  "sobolC_runs_Sumatera.csv": "75035eb7621b2a07c5947469c94869cbe3aa328167581bb0947edb899d86f18c",
+  "sobol_X.npy": "302c5448cbf949eaede0299084bffcc730611fc1daa340e608da3d5c3e40ce4f",
+  "sobol_runs_Jawa_Bali.csv": "447ed208cf8d4857e06d77ab710bb83d62f73f2931b34d93e19333bad8679d4d",
+  "sobol_runs_Sumatera.csv": "38ee9bb7c9ff32d3ca8fe66d837d0df194b430d32b154eb050667e270bcb0036",
+  "table0_calibration_check.csv": "4e0a04f404e4a30b17789279c0bcbfe67fc2a78070eb82f9b7fd52db66b61b82",
+  "table10_regime_map.csv": "08f2a903001ee3bf43e5675296ff2ee4b01b45dfb74babb5b1adef5b6130ec7f",
+  "table11_calibration_age.csv": "a7a806ad624a0aa43b0b1769e13b5200371e04d552e089b2bdbd429a2a50b10f",
+  "table12_sobol_convergence.csv": "1eb67ba1205afb0982610ba108c6f10f4ab3957ce430fa3ea401bc193906f5a3",
+  "table16_ef_envelope.csv": "cc3f887f5881b5bed010573d732942887f142b5f3323f43a8860a9c127734745",
+  "table16_ef_envelope_runs.csv": "187bc28c3d2907f8a130b65fe4761c36e7be7aa3c38035e5003559c69543ca6d",
+  "table17a_rep_consequential.csv": "3bf42504125b83aa5de4ff5f2a3991dea04ef507addd725fa79da34abe863957",
+  "table17a_summary.csv": "1edbec23d329f8774e82737dfbbdac2e3786de8c724b48ce11218bcc2d73bb26",
+  "table17b_cells.csv": "02f2fd7db11ee35ee76adec2af495856c5bece758cd8f12d4869fbf17f3ea481",
+  "table17b_rep_regime_map.csv": "b5f187645b006a94381c306f6ca5f43d9cc9785461677d3883eaee47c86b485d",
+  "table17b_summary.csv": "01b9cbee06d5dc662694bdb6d85aa81de5f6756581794420d16e76430bdc13fc",
+  "table17c_rep_calibration_age.csv": "21f2b70a0f57c755490e97d2fdbdc0a23c745937a6e3d9343d619ee87d82c825",
+  "table17c_summary.csv": "c83c897b94bb9453489678f3c706a4958681b28b18a95770ca15f87d318a363e",
+  "table18_load_shape.csv": "7bac9f58f297aced64bd83fca4bbd5b5563d5b7321bee5fdb9cf7462ec179ccc",
+  "table18_load_shape_calibration.csv": "7c3bbf417394648454366fa1aa25c1e91f660185bcc53c1d75a7c542a06f494b",
+  "table18_summary.csv": "b4c6ef48c033b46baab3a07cbda84e3652bd213b442e1bdcad1d4b87f7a2e68c",
+  "table19_mechanism.csv": "e38714a15531e28795e4b88d172660fba0bafaf981899511e94ead125d9f1f90",
+  "table1_heuristic_savings.csv": "b5339c90ad0beaa4634644102a26e71aa7f225c333c18357e1ae1139a7701267",
+  "table20_slack.csv": "70213b482deddc1a0b0623f45785a9c0d8123c3a8ac6b8b79ce5719d71f14f10",
+  "table2_ppo_transfer_by_seed.csv": "f58b60f1087b5c1624b9e382d7066980a9e17c5296bd30185030bd06e560a9b4",
+  "table2_ppo_transfer_summary.csv": "af089b2f9a78eb42d71c5534c9fdd153c12d81e634e0a0d07ff2c7f89543b076",
+  "table3_solar_sweep.csv": "28b3ef17f72a40d4c0c2139888bfaab09a5e0439b33ad4fba9541947cb483db2",
+  "table4_sobol_indices.csv": "caed2c3485a51c46e4b5e34bb6bf8e524d785b33ffe99d2a9bcb64cc53079646",
+  "table5_consequential.csv": "4cb754c1c8916a78e6f33525750ea7b1348b1ac74e84facac6bf57a6bae6f2bd",
+  "table5b_consequential_reserve.csv": "b1314d473e3638ca18c2a3ed910d9d87f110dc047cbea5c608a3cd23329a92a8",
+  "table6_misspecification.csv": "232d39217822ac11fb18393cc80f5fb062e48266fd1b737d213410ee2133ca32",
+  "table6_misspecification_summary.csv": "8559911eb915dd9db58f3bed23e4ae1e9742a29a7e85d4a26f9b61901305a357",
+  "table7_official_ef_check.csv": "2f773008a1e328c196f307452a8febf8539169ef57ad16219533c0da8e1b9ec0",
+  "table8_sobol_consequential.csv": "808a87d45fac157665827789deb1559b6d40d1ddb7db1ef94a20de883b806a47",
+  "table9_ablation.csv": "30eb180bd6a395727d32afa5475a49a8846aacd21a26a1573d1b49d480be7ce7",
+  "table9_ablation_summary.csv": "e545b7d19efc735fc661a531d8816153eb8e20673e5be3936cbf746f254416a5"
+ }
+}
